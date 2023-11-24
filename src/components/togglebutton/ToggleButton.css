@@ -1,0 +1,29 @@
+.toggle-button {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.toggle-button__input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-button__input:checked + .toggle-button__background {
+  background-color: var(--neon-blue-color);
+}
+
+.toggle-button__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  background-color: var(--light-black-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

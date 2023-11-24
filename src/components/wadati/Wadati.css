@@ -1,0 +1,15 @@
+.wadati-chart {
+  background-color: var(--dark-gray-color);
+  border: 1px solid var(--neon-blue-color);
+  box-sizing: border-box;
+  padding: 20px 10px;
+}
+
+.wadati-chart__title {
+  padding-bottom: 30px;
+}
+
+.wadati-chart__container {
+  width: 500px;
+  height: 500px;
+}

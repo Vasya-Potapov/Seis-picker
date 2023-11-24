@@ -1,0 +1,9 @@
+.event-list {
+    background-color: var(--dark-gray-color);
+    padding: 20px 10px;
+    border: 1px solid var(--neon-blue-color);
+}
+
+.event-list__title {
+    padding-bottom: 30px;
+}

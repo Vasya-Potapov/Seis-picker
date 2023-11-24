@@ -1,0 +1,55 @@
+.loader {
+  position: relative;
+  display: inline-block;
+}
+
+.loader__dot-outer {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.loader:nth-child(1) {
+  animation-delay: -0.036s;
+}
+
+.loader:nth-child(2) {
+  animation-delay: -0.072s;
+}
+
+.loader:nth-child(3) {
+  animation-delay: -0.108s;
+}
+
+.loader:nth-child(4) {
+  animation-delay: -0.144s;
+}
+
+.loader:nth-child(5) {
+  animation-delay: -0.18s;
+}
+
+.loader:nth-child(6) {
+  animation-delay: -0.216s;
+}
+
+.loader:nth-child(7) {
+  animation-delay: -0.252s;
+}
+
+.loader:nth-child(8) {
+  animation-delay: -0.288s;
+}
+
+.loader__dot {
+  position: absolute;
+  display: block;
+  border-radius: 100%;
+}
+
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

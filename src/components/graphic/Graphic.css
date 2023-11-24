@@ -1,0 +1,20 @@
+.graphic__wrapper {
+  width: 100%;
+  height: 90px;
+}
+
+.graphic__wrapper_first {
+  width: 100%;
+  height: 120px;
+}
+
+.graphic__wrapper_last {
+  width: 100%;
+  height: 110px;
+}
+
+.graphic__wrapper rect,
+.graphic__wrapper_first rect,
+.graphic__wrapper_last rect {
+  cursor: pointer !important;
+}
