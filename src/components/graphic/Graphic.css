@@ -1,16 +1,16 @@
 .graphic__wrapper {
   width: 100%;
-  height: 90px;
+  height: 180px;
 }
 
 .graphic__wrapper_first {
   width: 100%;
-  height: 120px;
+  height: 240px;
 }
 
 .graphic__wrapper_last {
   width: 100%;
-  height: 110px;
+  height: 220px;
 }
 
 .graphic__wrapper rect,

@@ -14,19 +14,19 @@ export function Wadati({ times }) {
       l: 40,
     },
     font: {
-      color: "#61dafb",
+      color: "#4d5a6a",
     },
-    paper_bgcolor: "#282c34",
-    plot_bgcolor: "#282c34",
+    paper_bgcolor: "eee2dc",
+    plot_bgcolor: "#f0ece9",
     yaxis: {
-      linecolor: "#61dafb",
+      linecolor: "#4d5a6a",
       mirror: true,
-      gridcolor: "#61dafb44",
+      gridcolor: "#4d5a6a44",
     },
     xaxis: {
-      linecolor: "#61dafb",
+      linecolor: "#4d5a6a",
       mirror: true,
-      gridcolor: "#61dafb44",
+      gridcolor: "#4d5a6a44",
     },
     showlegend: false,
   };
@@ -53,7 +53,7 @@ export function Wadati({ times }) {
       type: "scatter",
       mode: "markers",
       name: "waves",
-      marker: { color: "#61dafb" },
+      marker: { color: "#4d5a6a" },
     });
   }, [times]);
 
@@ -95,7 +95,7 @@ export function Wadati({ times }) {
       type: "scatter",
       mode: "lines",
       name: "approximated",
-      marker: { color: "#61dafb88" },
+      marker: { color: "#4d5a6a88" },
       line: { dash: "dashdot" },
     });
   }, [chartData]);

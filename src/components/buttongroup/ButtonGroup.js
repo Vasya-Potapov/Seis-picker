@@ -15,7 +15,7 @@ export function ButtonGroup({
         onChange={onEventListVisibilityChange}
         IconElement={
           <ListIcon
-            color={eventListVisibility ? "#202125" : "#61dafb"}
+            color={eventListVisibility ? "#b89c84" : "#61849a"}
             size={24}
           />
         }
@@ -25,7 +25,7 @@ export function ButtonGroup({
         onChange={onWadatiChartVisibilityChange}
         IconElement={
           <ChartIcon
-            color={wadatiChartVisibility ? "#202125" : "#61dafb"}
+            color={wadatiChartVisibility ? "#b89c84" : "#61849a"}
             size={24}
           />
         }

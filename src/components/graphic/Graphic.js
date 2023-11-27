@@ -6,10 +6,10 @@ import { getGraphicData, parseChartData } from "../../utils";
 export function Graphic(props) {
   const [data, setData] = useState([]);
 
-  const LINE_COLORS = ["#61dafb", "#227D22", "#BF2324"];
+  const LINE_COLORS = ["#123c69", "#227D22", "#BF2324"];
 
   const defaultYGridShape = {
-    line: { color: LINE_COLORS[0] },
+    line: { color: "#4d5a6a" },
     xref: "paper",
     yref: "paper",
     x0: 0,
@@ -17,14 +17,14 @@ export function Graphic(props) {
   };
 
   const defaultXGridShape = {
-    line: { color: LINE_COLORS[0] },
+    line: { color: "#4d5a6a" },
     xref: "paper",
     yref: "paper",
     y0: 0,
     y1: 1,
   };
 
-  const defaultGridShape = [
+  const   defaultGridShape = [
     {
       ...defaultYGridShape,
       y0: 0,
@@ -58,7 +58,7 @@ export function Graphic(props) {
   ];
 
   const defaultLineShape = {
-    line: { color: "white" },
+    line: { color: "black" },
     yref: "paper",
     y0: 0,
     y1: 1,
@@ -66,11 +66,11 @@ export function Graphic(props) {
   };
 
   const defaultSquareShape = {
-    fillcolor: "white",
-    line: { color: "white" },
+    fillcolor: "black",
+    line: { color: "black" },
     yref: "paper",
     xsizemode: "pixel",
-    y0: 0.9,
+    y0: 0.93,
     y1: 1,
     x0: 0,
     x1: 12,
@@ -86,7 +86,7 @@ export function Graphic(props) {
     textangle: "-90",
     showarrow: false,
     font: {
-      color: LINE_COLORS[0],
+      color: "#4d5a6a",
       size: 16,
     },
   };
@@ -94,9 +94,9 @@ export function Graphic(props) {
   const defaultAnnotation = {
     xanchor: "left",
     yref: "paper",
-    y: 1.06,
+    y: 1.02,
     showarrow: false,
-    font: { size: 12, color: "#282c34" },
+    font: { size: 12, color: "f0ece9" },
   };
 
   const defaultLayout = {
@@ -107,24 +107,24 @@ export function Graphic(props) {
       l: 40,
     },
     font: {
-      color: "#61dafb",
+      color: "#4d5a6a",
     },
-    paper_bgcolor: "#282c34",
-    plot_bgcolor: "#282c34",
+    paper_bgcolor: "#eee2dc",
+    plot_bgcolor: "#f0ece9",
     yaxis1: {
       fixedrange: true,
-      gridcolor: "#61dafb44",
+      gridcolor: "#4d5a6a44",
     },
     yaxis2: {
       fixedrange: true,
-      gridcolor: "#61dafb44",
+      gridcolor: "#4d5a6a44",
     },
     yaxis3: {
       fixedrange: true,
-      gridcolor: "#61dafb44",
+      gridcolor: "#4d5a6a44",
     },
     xaxis: {
-      gridcolor: "#61dafb44",
+      gridcolor: "#4d5a6a44",
       showticklabels: props.position === "" ? false : true,
       side: props.position !== "first" ? "bottom" : "top",
       autorange: false,
